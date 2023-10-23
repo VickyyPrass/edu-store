@@ -1,0 +1,26 @@
+.footer_area {
+    background: linear-gradient(
+        90deg,
+        rgba(7, 154, 242, 1) 0%,
+        rgba(10, 185, 222, 1) 100%
+    );
+    width: 100%;
+    display: inline-flex;
+    margin-top: 90px;
+
+    .footer_content {
+        padding: 30px;
+        color: #fff;
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+    }
+}

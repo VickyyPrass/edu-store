@@ -1,0 +1,94 @@
+.cart_empty {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0b5ed7;
+}
+
+.cart_area {
+    thead .produk {
+        width: 250px;
+    }
+
+    thead .qty {
+        width: 250px;
+    }
+
+    tbody {
+        td {
+            padding: 20px 0;
+        }
+
+        .btn_delete_cart {
+            background: none;
+            border: none;
+            margin-top: 20px;
+
+            .icon_delete {
+                cursor: pointer;
+                border-radius: 50%;
+                font-size: 18px;
+                color: #000;
+
+                &:hover {
+                    background-color: #d67171;
+                    color: #fff;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 130px;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+        }
+
+        .qty_area {
+            .qty_box {
+                display: flex;
+                background-color: #ebf6ff;
+                justify-content: center;
+                width: 150px;
+                border-radius: 5px;
+                font-size: 16px;
+                padding: 8px;
+                margin: 20px auto;
+
+                .btn_qty {
+                    background-color: #ebf6ff;
+                    border: none;
+                    color: aqua;
+                }
+                p {
+                    padding-top: 8px;
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    h4 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn_checkout {
+        width: 330px;
+        background-color: #ebf6ff;
+        padding: 10px;
+        border: 1px solid aqua;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+}

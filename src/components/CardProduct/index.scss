@@ -1,0 +1,31 @@
+.card_menu_area {
+    margin-top: 50px;
+
+    .card_product {
+        margin: 10px 0;
+        max-width: 280px;
+
+        .card_image {
+            aspect-ratio: 3/2;
+            object-fit: contain;
+        }
+
+        .card_title {
+            font-weight: 400;
+            line-height: 1;
+        }
+        .card_tags {
+            font-size: 13px;
+            margin: -5px 0 10px 0;
+        }
+
+        .card_price {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .btn_details {
+            display: block;
+            width: 100%;
+        }
+    }
+}
